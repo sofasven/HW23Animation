@@ -22,6 +22,4 @@ extension UIButton {
         layer.add(pulsate, forKey: nil)
     }
     
-    
-    
 }

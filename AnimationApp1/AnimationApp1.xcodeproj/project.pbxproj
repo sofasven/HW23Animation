@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B15C7368B33F1F4477519712 /* Pods_AnimationApp1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07380B1AB74D163EF5E40A5E /* Pods_AnimationApp1.framework */; };
+		C729387E2ACE0AD80080672F /* wired-flat-45-clock-time.json in Resources */ = {isa = PBXBuildFile; fileRef = C72938782ACE0AD70080672F /* wired-flat-45-clock-time.json */; };
+		C729387F2ACE0AD80080672F /* wired-flat-430-rugby-ball.json in Resources */ = {isa = PBXBuildFile; fileRef = C72938792ACE0AD70080672F /* wired-flat-430-rugby-ball.json */; };
+		C72938802ACE0AD80080672F /* wired-flat-61-camera.json in Resources */ = {isa = PBXBuildFile; fileRef = C729387A2ACE0AD70080672F /* wired-flat-61-camera.json */; };
+		C72938812ACE0AD80080672F /* wired-flat-478-computer-display.json in Resources */ = {isa = PBXBuildFile; fileRef = C729387B2ACE0AD70080672F /* wired-flat-478-computer-display.json */; };
+		C72938822ACE0AD80080672F /* wired-flat-21-avatar.json in Resources */ = {isa = PBXBuildFile; fileRef = C729387C2ACE0AD70080672F /* wired-flat-21-avatar.json */; };
+		C72938832ACE0AD80080672F /* wired-flat-62-film.json in Resources */ = {isa = PBXBuildFile; fileRef = C729387D2ACE0AD70080672F /* wired-flat-62-film.json */; };
+		C72938862ACE0FA00080672F /* AnimationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72938852ACE0FA00080672F /* AnimationModel.swift */; };
 		C7C540482ACDCFDE00F602B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C540472ACDCFDE00F602B3 /* AppDelegate.swift */; };
 		C7C5404A2ACDCFDE00F602B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C540492ACDCFDE00F602B3 /* SceneDelegate.swift */; };
 		C7C5404F2ACDCFDE00F602B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7C5404D2ACDCFDE00F602B3 /* Main.storyboard */; };
@@ -17,6 +25,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07380B1AB74D163EF5E40A5E /* Pods_AnimationApp1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimationApp1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C0DD4737746E0328B42FF5 /* Pods-AnimationApp1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationApp1.release.xcconfig"; path = "Target Support Files/Pods-AnimationApp1/Pods-AnimationApp1.release.xcconfig"; sourceTree = "<group>"; };
+		797E52DB7C28ABC931710542 /* Pods-AnimationApp1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationApp1.debug.xcconfig"; path = "Target Support Files/Pods-AnimationApp1/Pods-AnimationApp1.debug.xcconfig"; sourceTree = "<group>"; };
+		C72938782ACE0AD70080672F /* wired-flat-45-clock-time.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "wired-flat-45-clock-time.json"; path = "../../../../../../../../../Downloads/wired-flat-45-clock-time.json"; sourceTree = "<group>"; };
+		C72938792ACE0AD70080672F /* wired-flat-430-rugby-ball.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "wired-flat-430-rugby-ball.json"; path = "../../../../../../../../../Downloads/wired-flat-430-rugby-ball.json"; sourceTree = "<group>"; };
+		C729387A2ACE0AD70080672F /* wired-flat-61-camera.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "wired-flat-61-camera.json"; path = "../../../../../../../../../Downloads/wired-flat-61-camera.json"; sourceTree = "<group>"; };
+		C729387B2ACE0AD70080672F /* wired-flat-478-computer-display.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "wired-flat-478-computer-display.json"; path = "../../../../../../../../../Downloads/wired-flat-478-computer-display.json"; sourceTree = "<group>"; };
+		C729387C2ACE0AD70080672F /* wired-flat-21-avatar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "wired-flat-21-avatar.json"; path = "../../../../../../../../../Downloads/wired-flat-21-avatar.json"; sourceTree = "<group>"; };
+		C729387D2ACE0AD70080672F /* wired-flat-62-film.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "wired-flat-62-film.json"; path = "../../../../../../../../../Downloads/wired-flat-62-film.json"; sourceTree = "<group>"; };
+		C72938852ACE0FA00080672F /* AnimationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationModel.swift; sourceTree = "<group>"; };
 		C7C540442ACDCFDE00F602B3 /* AnimationApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7C540472ACDCFDE00F602B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7C540492ACDCFDE00F602B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,17 +51,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B15C7368B33F1F4477519712 /* Pods_AnimationApp1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81DA3A45FD4A67EC0C4EE8C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				797E52DB7C28ABC931710542 /* Pods-AnimationApp1.debug.xcconfig */,
+				42C0DD4737746E0328B42FF5 /* Pods-AnimationApp1.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A40632300117DDAC5E94659C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07380B1AB74D163EF5E40A5E /* Pods_AnimationApp1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C72938842ACE0F890080672F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C72938852ACE0FA00080672F /* AnimationModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		C7C5403B2ACDCFDE00F602B3 = {
 			isa = PBXGroup;
 			children = (
 				C7C540462ACDCFDE00F602B3 /* AnimationApp1 */,
 				C7C540452ACDCFDE00F602B3 /* Products */,
+				81DA3A45FD4A67EC0C4EE8C8 /* Pods */,
+				A40632300117DDAC5E94659C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +104,10 @@
 		C7C540462ACDCFDE00F602B3 /* AnimationApp1 */ = {
 			isa = PBXGroup;
 			children = (
+				C72938842ACE0F890080672F /* Models */,
 				C7C540622ACDD3BB00F602B3 /* Extensions */,
 				C7C5405D2ACDD03E00F602B3 /* Controllers */,
 				C7C5405C2ACDD03300F602B3 /* Views */,
-				C7C540612ACDD28100F602B3 /* Animations */,
 				C7C540602ACDD27400F602B3 /* Assets */,
 				C7C5405B2ACDD01D00F602B3 /* App */,
 				C7C540552ACDCFE100F602B3 /* Info.plist */,
@@ -98,6 +144,7 @@
 		C7C540602ACDD27400F602B3 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				C7C540612ACDD28100F602B3 /* Animations */,
 				C7C540502ACDCFE100F602B3 /* Assets.xcassets */,
 			);
 			path = Assets;
@@ -106,6 +153,12 @@
 		C7C540612ACDD28100F602B3 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				C729387C2ACE0AD70080672F /* wired-flat-21-avatar.json */,
+				C72938782ACE0AD70080672F /* wired-flat-45-clock-time.json */,
+				C729387A2ACE0AD70080672F /* wired-flat-61-camera.json */,
+				C729387D2ACE0AD70080672F /* wired-flat-62-film.json */,
+				C72938792ACE0AD70080672F /* wired-flat-430-rugby-ball.json */,
+				C729387B2ACE0AD70080672F /* wired-flat-478-computer-display.json */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -125,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7C540582ACDCFE100F602B3 /* Build configuration list for PBXNativeTarget "AnimationApp1" */;
 			buildPhases = (
+				DCD1A7F9A7B0D6C2CF25D855 /* [CP] Check Pods Manifest.lock */,
 				C7C540402ACDCFDE00F602B3 /* Sources */,
 				C7C540412ACDCFDE00F602B3 /* Frameworks */,
 				C7C540422ACDCFDE00F602B3 /* Resources */,
+				1F657EE7EC8AFBFAE390F28B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -176,13 +231,61 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C72938802ACE0AD80080672F /* wired-flat-61-camera.json in Resources */,
 				C7C540542ACDCFE100F602B3 /* LaunchScreen.storyboard in Resources */,
+				C72938812ACE0AD80080672F /* wired-flat-478-computer-display.json in Resources */,
 				C7C540512ACDCFE100F602B3 /* Assets.xcassets in Resources */,
+				C72938822ACE0AD80080672F /* wired-flat-21-avatar.json in Resources */,
 				C7C5404F2ACDCFDE00F602B3 /* Main.storyboard in Resources */,
+				C729387F2ACE0AD80080672F /* wired-flat-430-rugby-ball.json in Resources */,
+				C729387E2ACE0AD80080672F /* wired-flat-45-clock-time.json in Resources */,
+				C72938832ACE0AD80080672F /* wired-flat-62-film.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F657EE7EC8AFBFAE390F28B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimationApp1/Pods-AnimationApp1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimationApp1/Pods-AnimationApp1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnimationApp1/Pods-AnimationApp1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCD1A7F9A7B0D6C2CF25D855 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnimationApp1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C7C540402ACDCFDE00F602B3 /* Sources */ = {
@@ -193,6 +296,7 @@
 				C7C540482ACDCFDE00F602B3 /* AppDelegate.swift in Sources */,
 				C7C5404A2ACDCFDE00F602B3 /* SceneDelegate.swift in Sources */,
 				C7C540642ACDD7B000F602B3 /* UIButtonExt.swift in Sources */,
+				C72938862ACE0FA00080672F /* AnimationModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +438,7 @@
 		};
 		C7C540592ACDCFE100F602B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 797E52DB7C28ABC931710542 /* Pods-AnimationApp1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -362,6 +467,7 @@
 		};
 		C7C5405A2ACDCFE100F602B3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42C0DD4737746E0328B42FF5 /* Pods-AnimationApp1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

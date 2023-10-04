@@ -35,17 +35,20 @@
                                         <buttonConfiguration key="configuration" style="tinted" title="Lottie animation">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="lottieBtnAction" destination="BYZ-38-t0r" eventType="touchUpInside" id="EZ6-O3-h0E"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="feI-C7-iU2">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="feI-C7-iU2">
                                 <rect key="frame" x="50" y="109" width="293" height="150"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="okJ-ch-f8p">
                                         <rect key="frame" x="0.0" y="0.0" width="293" height="150"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Core animation" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MNS-U7-tNc">
-                                                <rect key="frame" x="58" y="60" width="177" height="30"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lottie animation finish" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MNS-U7-tNc">
+                                                <rect key="frame" x="17.333333333333343" y="60" width="258.33333333333326" height="30"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -73,7 +76,6 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="coreAnimationBtn" destination="lbf-RE-22h" id="nks-Hl-swe"/>
                         <outlet property="coreAnimationView" destination="okJ-ch-f8p" id="Fwl-q6-WS2"/>
                         <outlet property="coreLbl" destination="MNS-U7-tNc" id="znN-rK-Uja"/>
                         <outlet property="lottieBtn" destination="0JN-ad-jFG" id="B38-4e-a3X"/>
